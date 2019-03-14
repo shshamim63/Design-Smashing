@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+}
+.w-full{
+    width: 100%;
+}
+/*----header----*/
+.header-element{
+    height: 10rem;
+    background-color: blueviolet;
+}
+.w-ninety{
+    width: 90%;
+}
+.w-twentytwo{
+    width: 18%
+}
+.w-header-equal{
+    width: 13%
+}
+.nav-element{
+    height: 100%;
+}
+.ul-content{
+    height: 75%;
+}
+.header-nav-img{
+    height: 2.5rem;
+    width: 2.5rem;
+}
+.nav-header{
+    font-size: 1.5rem;
+    text-align: center;
+}
+.nav-text{
+    font-size: 1.2rem;   
+}
+.header-button{
+    width: 10%;
+}
+
+/*----common style-----*/
+.d-flex{
+    display: flex;
+}
+.d-flex-col{
+    flex-direction: column;
+}
+.margin-auto{
+    margin: auto;
+}
+.d-justify{
+    justify-content: space-between;
+}
