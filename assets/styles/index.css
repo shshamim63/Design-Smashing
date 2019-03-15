@@ -118,6 +118,37 @@ span{
 .comment-bottom{
     width: 75%;
 }
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px;
+  background-color: #f2305a;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.col-title{
+  font-size: 1.9rem;
+}
+.col-author{
+  font-size: 0.8rem;
+}
+.col-txt{
+  font-size: 1.1rem;
+}
+/*----Footer*****/
+.fot-list{
+  list-style-type: disc;
+}
+.fot-cont{
+  width: 9%;
+}
+.fot-img{
+  
+}
 /*----common style-----*/
 .d-flex{
     display: flex;
