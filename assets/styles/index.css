@@ -20,9 +20,12 @@
 }
 .nav-element{
     height: 100%;
+    margin: auto;
+    padding-top: 2%;
 }
 .ul-content{
     height: 75%;
+    padding: auto;
 }
 .header-nav-img{
     height: 2.5rem;
@@ -33,10 +36,18 @@
     text-align: center;
 }
 .nav-text{
-    font-size: 1.2rem;   
+    font-size: 0.9rem;
 }
 .header-button{
     width: 10%;
+    padding-top: 2%;
+}
+.btn-icon{
+  width: 20%;
+}
+.btn-txt{
+  width: 80%;
+  font-size: 1rem;
 }
 
 /*----common style-----*/
