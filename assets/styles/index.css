@@ -50,6 +50,74 @@
   font-size: 1rem;
 }
 
+/*----Body----*/
+.body-top{
+    height: 10rem;
+}
+.body-top-element{
+    width: 65%;
+    height: 80%;
+    padding-top: 2%;
+    font-size: 2rem;
+}
+.body-top-heading{
+    width: 55%;
+}
+.body-top-btn{
+    width: 30%;
+    height: 25%;
+}
+.body-top-btn-f{
+    width: 25%;
+    border-radius: 10%;
+}
+.body-top-btn-s{
+    width: 70%;
+    border-radius: 10%;
+}
+
+.grid-container {
+    display: grid;
+    grid: 300px 300px/auto auto;
+    grid-gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+}
+
+.body-conten-author{
+    height: 15%;
+}
+.author-pic{
+    width: 60px;
+    height: 60px;
+    border: 6px solid saddlebrown;
+}
+.author-name{
+    width: 80%;
+    font-size: 1.5rem;
+}
+span{
+    font-size: 0.9rem;
+}
+.body-text{
+    font-size: 2.2rem;
+    color: white;
+}
+.comment{
+    width: 60%;
+}
+.comment-icon{
+    width: 5%;
+}
+.comment-text{
+    width: 92%;
+}
+.comment-bottom-equal{
+    width: 30%;
+}
+.comment-bottom{
+    width: 75%;
+}
 /*----common style-----*/
 .d-flex{
     display: flex;
@@ -62,4 +130,10 @@
 }
 .d-justify{
     justify-content: space-between;
+}
+.align-text-center{
+    text-align: center;
+}
+.right-full-margin{
+    margin-left:auto;
 }
