@@ -1,13 +1,25 @@
 *{
     box-sizing: border-box;
 }
+body{
+    color: white;
+    font-family: 'Sniglet', cursive;
+}
+footer{
+    background-color: #a8200b;
+    color: white;
+}
 .w-full{
     width: 100%;
 }
 /*----header----*/
 .header-element{
     height: 10rem;
-    background-color: blueviolet;
+    background-color: #a80f0f;
+}
+.nab-btn-col{
+    background-color: #c12a13;
+    color: white;
 }
 .w-ninety{
     width: 90%;
@@ -36,7 +48,7 @@
     text-align: center;
 }
 .nav-text{
-    font-size: 0.9rem;
+    font-size: 0.85rem;
 }
 .header-button{
     width: 10%;
@@ -44,6 +56,7 @@
 }
 .btn-icon{
   width: 20%;
+  padding-top: 2px;
 }
 .btn-txt{
   width: 80%;
@@ -51,8 +64,13 @@
 }
 
 /*----Body----*/
+.white-back{
+    background-color: white;
+    color: black;
+}
 .body-top{
     height: 10rem;
+    background-color: #a8200b;
 }
 .body-top-element{
     width: 65%;
@@ -70,20 +88,26 @@
 .body-top-btn-f{
     width: 25%;
     border-radius: 10%;
+    background-color: #c12a13;
+    color: white;
 }
 .body-top-btn-s{
     width: 70%;
     border-radius: 10%;
+    background-color: #c12a13;
+    color: white;
 }
 
 .grid-container {
     display: grid;
-    grid: 300px 300px/auto auto;
+    grid: 320px 320px/auto auto;
     grid-gap: 10px;
-    background-color: #2196F3;
+    background-color: #a8200b;
     padding: 10px;
 }
-
+.grid-container > div {
+    padding: 20px 0;
+  }
 .body-conten-author{
     height: 15%;
 }
@@ -98,16 +122,23 @@
 }
 span{
     font-size: 0.9rem;
+    font-family: 'Satisfy', cursive;
 }
 .body-text{
     font-size: 2.2rem;
-    color: white;
+    color: #c4c2c2;
 }
 .comment{
     width: 60%;
 }
+.comment-get{
+    width: 70%;
+}
+.comment-get-part{
+    width: 30%;
+}
 .comment-icon{
-    width: 5%;
+    width: 8%;
 }
 .comment-text{
     width: 92%;
@@ -123,7 +154,8 @@ span{
   width: 33.33%;
   padding: 10px;
   height: 300px;
-  background-color: #f2305a;
+  background-color: white;
+  color: black;
 }
 .row:after {
   content: "";
@@ -133,6 +165,13 @@ span{
 .col-title{
   font-size: 1.9rem;
 }
+.col-title:hover{
+    color: red;
+}
+.grid-even{
+    background-color: #c12a13;
+}
+  
 .col-author{
   font-size: 0.8rem;
 }
@@ -140,14 +179,27 @@ span{
   font-size: 1.1rem;
 }
 /*----Footer*****/
+.link-footer{
+    color: white;
+    text-decoration: none;
+}
+.link-footer:hover{
+    color: white;
+    text-decoration: underline;
+}
 .fot-list{
   list-style-type: disc;
+  font-weight: bolder;
+  font-size: 1.08rem;
 }
 .fot-cont{
   width: 9%;
 }
 .fot-img{
-  
+  width: 30%;
+}
+.footer-other{
+    width: 70%;
 }
 /*----common style-----*/
 .d-flex{
