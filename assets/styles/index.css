@@ -1,0 +1,222 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    color: white;
+    font-family: 'Sniglet', cursive;
+}
+footer{
+    background-color: #a8200b;
+    color: white;
+}
+.w-full{
+    width: 100%;
+}
+/*----header----*/
+.header-element{
+    height: 10rem;
+    background-color: #a80f0f;
+}
+.nab-btn-col{
+    background-color: #c12a13;
+    color: white;
+}
+.w-ninety{
+    width: 90%;
+}
+.w-twentytwo{
+    width: 18%
+}
+.w-header-equal{
+    width: 13%
+}
+.nav-element{
+    height: 100%;
+    margin: auto;
+    padding-top: 2%;
+}
+.ul-content{
+    height: 75%;
+    padding: auto;
+}
+.header-nav-img{
+    height: 2.5rem;
+    width: 2.5rem;
+}
+.nav-header{
+    font-size: 1.5rem;
+    text-align: center;
+}
+.nav-text{
+    font-size: 0.85rem;
+}
+.header-button{
+    width: 10%;
+    padding-top: 2%;
+}
+.btn-icon{
+  width: 20%;
+  padding-top: 2px;
+}
+.btn-txt{
+  width: 80%;
+  font-size: 1rem;
+}
+
+/*----Body----*/
+.white-back{
+    background-color: white;
+    color: black;
+}
+.body-top{
+    height: 10rem;
+    background-color: #a8200b;
+}
+.body-top-element{
+    width: 65%;
+    height: 80%;
+    padding-top: 2%;
+    font-size: 2rem;
+}
+.body-top-heading{
+    width: 55%;
+}
+.body-top-btn{
+    width: 30%;
+    height: 25%;
+}
+.body-top-btn-f{
+    width: 25%;
+    border-radius: 10%;
+    background-color: #c12a13;
+    color: white;
+}
+.body-top-btn-s{
+    width: 70%;
+    border-radius: 10%;
+    background-color: #c12a13;
+    color: white;
+}
+
+.grid-container {
+    display: grid;
+    grid: 320px 320px/auto auto;
+    grid-gap: 10px;
+    background-color: #a8200b;
+    padding: 10px;
+}
+.grid-container > div {
+    padding: 20px 0;
+  }
+.body-conten-author{
+    height: 15%;
+}
+.author-pic{
+    width: 60px;
+    height: 60px;
+    border: 6px solid saddlebrown;
+}
+.author-name{
+    width: 80%;
+    font-size: 1.5rem;
+}
+span{
+    font-size: 0.9rem;
+    font-family: 'Satisfy', cursive;
+}
+.body-text{
+    font-size: 2.2rem;
+    color: #c4c2c2;
+}
+.comment{
+    width: 60%;
+}
+.comment-get{
+    width: 70%;
+}
+.comment-get-part{
+    width: 30%;
+}
+.comment-icon{
+    width: 8%;
+}
+.comment-text{
+    width: 92%;
+}
+.comment-bottom-equal{
+    width: 30%;
+}
+.comment-bottom{
+    width: 75%;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px;
+  background-color: white;
+  color: black;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.col-title{
+  font-size: 1.9rem;
+}
+.col-title:hover{
+    color: red;
+}
+.grid-even{
+    background-color: #c12a13;
+}
+  
+.col-author{
+  font-size: 0.8rem;
+}
+.col-txt{
+  font-size: 1.1rem;
+}
+/*----Footer*****/
+.link-footer{
+    color: white;
+    text-decoration: none;
+}
+.link-footer:hover{
+    color: white;
+    text-decoration: underline;
+}
+.fot-list{
+  list-style-type: disc;
+  font-weight: bolder;
+  font-size: 1.08rem;
+}
+.fot-cont{
+  width: 9%;
+}
+.fot-img{
+  width: 30%;
+}
+.footer-other{
+    width: 70%;
+}
+/*----common style-----*/
+.d-flex{
+    display: flex;
+}
+.d-flex-col{
+    flex-direction: column;
+}
+.margin-auto{
+    margin: auto;
+}
+.d-justify{
+    justify-content: space-between;
+}
+.align-text-center{
+    text-align: center;
+}
+.right-full-margin{
+    margin-left:auto;
+}
