@@ -17,4 +17,4 @@
 ---
 # Live Demo
 
-Click [here](https://raw.githack.com/shshamim63/Design-Smashing/development/index.html) to see the latest updates.
+Click [here](https://shshamim63.github.io/Design-Smashing/.) to see the latest updates.
